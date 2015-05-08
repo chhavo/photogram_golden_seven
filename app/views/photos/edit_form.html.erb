@@ -1,0 +1,16 @@
+<h1>Edit photo <%= @edit_id %></h1>
+
+<form>
+  <div>
+    <label for="photo_caption">Caption:</label>
+    <input id="photo_caption" type="text" name="the_caption" value="<%= @edit_photo.caption %>">
+  </div>
+  <div>
+    <label for="photo_image_url">Image URL:</label>
+    <input id="photo_image_url" type="text" name="the_source" value="<%= @edit_photo.source %>">
+  </div>
+  <div>
+    <button>Edit Photo</button>
+  </div>
+  <p><a href="http://localhost:3000/"> Go to Homepage </a></p>
+</form>

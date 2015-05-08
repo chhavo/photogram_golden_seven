@@ -21,4 +21,17 @@ class PhotosController < ApplicationController
     # end
 
   end
+
+  def new_form
+
+    render 'new_form'
+
+  end
+
+  def create_row
+
+      render 'create_row'
+
+  end
+
 end
